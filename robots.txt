@@ -1,0 +1,22 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /public/
+
+# Block access to sensitive files
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*_buildManifest.js$
+Disallow: /*_ssgManifest.js$
+Disallow: /*.js.map$
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://www.sembagigreenresources.com/sitemap.xml
+
+# Additional information
+# Contact: info@sembagigreenresources.com
+# Website: https://www.sembagigreenresources.com
